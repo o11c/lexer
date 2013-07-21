@@ -1,3 +1,4 @@
+#!/usr/bin/env lua
 local file = {}
 file.file = assert(io.open(arg[1]), "[ERROR]: File not found.") -- Attempts to load a file
 file.txt = file.file:read("*all")
